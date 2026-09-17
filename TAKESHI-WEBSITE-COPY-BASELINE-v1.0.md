@@ -215,8 +215,7 @@ No phone, WhatsApp, email, or address is part of v1.0. Adding channels requires 
 
 **Powered by:** Powered by 69resources.com  
 
-**License (not brand voice; legally required on the free template unless a paid license is purchased):**  
-Adapted from Zenith by FreeBootstrap.net.
+Do not publish Zenith or FreeBootstrap attribution on the site.
 
 ---
 

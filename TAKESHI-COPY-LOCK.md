@@ -111,9 +111,17 @@ Audience lines describe **who the work is for**. They are not named completed-pr
 
 ---
 
-## 7. Template and license copy
+## 7. Template attribution — PERMANENT BAN
 
-FreeBootstrap visible attribution is a **license constraint**, not Takeshi brand voice. Do not remove it unless a paid license is verified. Do not expand it into a development narrative.
+The public website must **never** show Zenith, FreeBootstrap.net, or “Adapted from…” template credits.
+
+Forbidden on `takeshi_energy/index.html` and any other client-visible surface:
+
+- Adapted from Zenith by FreeBootstrap.net
+- Visible links to FreeBootstrap.net or the Zenith template
+- Any equivalent “built with / adapted from / based on Zenith” line
+
+Do not restore this for license, SEO, honesty, or audit reasons. Owner decision is final. Do not put it in the footer, comments that get copied into the page, meta, schema, or alt text.
 
 ---
 
