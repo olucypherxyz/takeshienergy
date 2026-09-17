@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/takeshi_energy/index.html" },
+    { "source": "/assets/:path*", "destination": "/takeshi_energy/assets/:path*" }
+  ]
+}

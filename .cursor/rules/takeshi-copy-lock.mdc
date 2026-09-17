@@ -1,0 +1,23 @@
+---
+description: Enforce locked Takeshi website copy v1.0 — copy is not implementation
+alwaysApply: true
+---
+
+# Takeshi copy lock (v1.0)
+
+Before changing any client-visible string in `takeshi_energy/index.html`, read `TAKESHI-WEBSITE-COPY-BASELINE-v1.0.md` and `TAKESHI-COPY-LOCK.md`.
+
+**COPY IS NOT IMPLEMENTATION.** Layout, CSS, images, performance, and technical SEO may change. Approved messaging may not.
+
+Protected examples (must remain exact):
+
+- Dependable power, designed around what matters.
+- We start with the load — not a generic package.
+
+Do not paraphrase locked headings, ledes, services, audiences, CTAs, or footer brand lines to “improve” length, SEO, or modernity.
+
+If implementation conflicts with approved copy: keep the copy, report the conflict.
+
+Do not invent contacts, projects, stats, or partnerships. Claims C-01–C-10 in `TAKESHI-COPY-LOCK.md` stay at locked wording and still require factual verification.
+
+Copy changes require an explicit new version (v1.1 / v2.0), not an in-place edit of v1.0.

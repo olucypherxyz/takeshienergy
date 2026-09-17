@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!--
+Visual implementation: Takeshi Energy
+Technical foundation: Zenith (FreeBootstrap.net)
+License: https://freebootstrap.net/license
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Takeshi Energy — Dependable power, designed around what matters</title>
+    <meta name="description" content="Takeshi Energy designs, installs and supports solar, inverter, battery, backup and electrical systems around how properties actually operate.">
+    <meta name="theme-color" content="#0B0C0A">
+    <meta property="og:site_name" content="Takeshi Energy">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Takeshi Energy — Dependable power, designed around what matters">
+    <meta property="og:description" content="Takeshi Energy designs, installs and supports solar, inverter, battery, backup and electrical systems around how properties actually operate.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Takeshi Energy — Dependable power, designed around what matters">
+    <meta name="twitter:description" content="Takeshi Energy designs, installs and supports solar, inverter, battery, backup and electrical systems around how properties actually operate.">
+    <link rel="icon" href="assets/images/takeshi/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/takeshi.css" rel="stylesheet">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Takeshi Energy",
+        "description": "Takeshi Energy designs, installs and supports solar, inverter, battery, backup and electrical systems around how properties actually operate."
+      }
+    </script>
+  </head>
+  <body>
+    <a class="te-skip" href="#main">Skip to content</a>
+    <div class="te-wrap">
+      <header class="te-nav" aria-label="Primary">
+        <div class="te-container te-nav__bar">
+          <a class="te-brand" href="#home">
+            <img class="te-brand__mark" src="assets/images/takeshi/logo-mark.svg" alt="" width="26" height="26">
+            <span class="te-brand__name">Takeshi<br>Energy</span>
+          </a>
+          <nav class="te-nav__desktop" aria-label="Page sections">
+            <ul class="te-nav__links">
+              <li><a class="scroll-link" href="#solutions">Solutions</a></li>
+              <li><a class="scroll-link" href="#serve">Who we serve</a></li>
+              <li><a class="scroll-link" href="#process">How we work</a></li>
+              <li><a class="scroll-link" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="te-nav__toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#te-nav-panel" aria-controls="te-nav-panel" aria-expanded="false" aria-label="Open menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <line x1="4" x2="20" y1="7" y2="7"></line>
+              <line x1="4" x2="16" y1="12" y2="12"></line>
+              <line x1="4" x2="18" y1="17" y2="17"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="offcanvas offcanvas-end te-nav__panel" id="te-nav-panel" tabindex="-1" aria-labelledby="te-nav-panel-label" inert>
+          <div class="offcanvas-header">
+            <p class="offcanvas-title visually-hidden" id="te-nav-panel-label">Menu</p>
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close menu"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="te-nav__mobile">
+              <li><a class="scroll-link" href="#solutions" data-bs-dismiss="offcanvas">Solutions</a></li>
+              <li><a class="scroll-link" href="#serve" data-bs-dismiss="offcanvas">Who we serve</a></li>
+              <li><a class="scroll-link" href="#process" data-bs-dismiss="offcanvas">How we work</a></li>
+              <li><a class="scroll-link" href="#contact" data-bs-dismiss="offcanvas">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main id="main" tabindex="-1">
+        <section class="te-hero" id="home">
+          <div class="te-hero__media">
+            <img
+              src="assets/images/takeshi/takeshi-hero-lagos-1800.jpg"
+              srcset="assets/images/takeshi/takeshi-hero-lagos-1200.jpg 1200w, assets/images/takeshi/takeshi-hero-lagos-1800.jpg 1800w, assets/images/takeshi/takeshi-hero-lagos-urban-fabric.jpg 2400w"
+              sizes="100vw"
+              width="1800"
+              height="1350"
+              alt="Aerial view of buildings along a river in Lagos, Nigeria."
+              fetchpriority="high"
+              decoding="async">
+          </div>
+          <div class="te-hero__scrim" aria-hidden="true"></div>
+          <div class="te-container te-hero__content">
+            <p class="te-eyebrow">Energy systems</p>
+            <h1 class="te-h1">Dependable power, designed around what matters.</h1>
+            <p class="te-lede">Takeshi Energy designs, installs and supports solar, inverter, battery, backup and electrical systems around how your property actually operates. We start with the load — not a generic package.</p>
+            <div class="te-actions">
+              <a class="te-btn te-btn--primary" href="#contact">Discuss your energy needs</a>
+              <a class="te-btn te-btn--ghost" href="#solutions">Explore our solutions</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="te-section te-context" id="context">
+          <div class="te-container">
+            <h2>Interruptions have a cost.</h2>
+            <p class="te-lede">Unreliable supply is not only inconvenient. It stops work, raises running costs, stresses equipment, and makes it harder for a home or operation to stay running.</p>
+            <ul class="te-points">
+              <li>
+                <h3>Homes</h3>
+                <p>Essential loads need to stay available — lighting, refrigeration, communications, safety.</p>
+              </li>
+              <li>
+                <h3>Businesses and facilities</h3>
+                <p>Operating hours they can plan around, not improvise around.</p>
+              </li>
+              <li>
+                <h3>Developments</h3>
+                <p>Electrical infrastructure that can accept today’s system and tomorrow’s expansion.</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="te-section te-solutions" id="solutions">
+          <div class="te-container">
+            <div class="te-solutions__intro">
+              <p class="te-eyebrow">What we provide</p>
+              <h2>Power systems, specified as a whole.</h2>
+              <p class="te-lede">Equipment only performs if it is sized, matched and installed as one system. Takeshi specifies around load, backup duration, site conditions and budget.</p>
+            </div>
+            <div class="te-solutions__layout">
+              <div>
+                <article class="te-service">
+                  <span class="te-service__n" aria-hidden="true">01</span>
+                  <div>
+                    <h3>Energy assessment and system design</h3>
+                    <p>Site inspection and load evaluation before equipment is recommended. We account for essential appliances and machinery, operating hours, peak demand, backup duration, expansion, site conditions and budget. That determines inverter capacity, storage, generation, protection and supporting electrical work.</p>
+                  </div>
+                </article>
+                <article class="te-service">
+                  <span class="te-service__n" aria-hidden="true">02</span>
+                  <div>
+                    <h3>Solar-power solutions</h3>
+                    <p>Supply and installation for homes, offices, commercial sites and institutions — from essential-load backup to hybrid systems that reduce grid and generator use. Panels, inverters, controllers and protection are matched as one design.</p>
+                  </div>
+                </article>
+                <article class="te-service">
+                  <span class="te-service__n" aria-hidden="true">03</span>
+                  <div>
+                    <h3>Inverter and battery systems</h3>
+                    <p>New systems, battery replacement, capacity upgrades, fault diagnosis and performance improvement. Capacity follows expected load and required backup time — not a standard kit.</p>
+                  </div>
+                </article>
+                <article class="te-service">
+                  <span class="te-service__n" aria-hidden="true">04</span>
+                  <div>
+                    <h3>Electrical installation</h3>
+                    <p>Residential and commercial wiring: new buildings, upgrades, and the work solar and backup systems need. Coordinating this during construction reduces rewiring, improves safety and prepares the property for current or later power systems.</p>
+                  </div>
+                </article>
+                <article class="te-service">
+                  <span class="te-service__n" aria-hidden="true">05</span>
+                  <div>
+                    <h3>Hybrid and backup-power systems</h3>
+                    <p>For continuity beyond a simple backup. Configurations may combine grid, solar, batteries, inverters and generators, based on which loads are critical and how much interruption the operation can tolerate.</p>
+                  </div>
+                </article>
+                <article class="te-service">
+                  <span class="te-service__n" aria-hidden="true">06</span>
+                  <div>
+                    <h3>Estate and multi-unit installations</h3>
+                    <p>For developers, housing schemes and estate managers: development-wide assessment, standard system options, bulk procurement, phased installation and structured maintenance across units.</p>
+                  </div>
+                </article>
+                <article class="te-service">
+                  <span class="te-service__n" aria-hidden="true">07</span>
+                  <div>
+                    <h3>Maintenance and after-sales support</h3>
+                    <p>Inspections, panel cleaning, battery-health checks, connection tightening, wiring review, inverter diagnostics, performance testing and fault resolution. Plans follow the equipment, the site, how hard it is used, and what failure would cost.</p>
+                  </div>
+                </article>
+              </div>
+              <figure class="te-figure">
+                <img
+                  src="assets/images/takeshi/takeshi-detail-electrical-infrastructure.jpg"
+                  width="1400"
+                  height="933"
+                  alt="Electrical substation equipment and overhead conductors against the sky."
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+            </div>
+            <div class="te-products">
+              <h3>Specified for the system, not the showroom.</h3>
+              <p>We have experience supplying and installing Deye, Growatt, Felicity, Choice and Sukhig equipment, and other suitable products when they fit the design and are available. Compatibility, performance, safety and supportability decide the selection. A brand name is not a substitute for correct design.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="te-section te-approach" id="approach">
+          <div class="te-container">
+            <p class="te-eyebrow">How we think</p>
+            <h2>We start with the load, not the equipment.</h2>
+            <p class="te-lede">The right system is the one designed for how you actually use power. Good equipment still needs that design, plus correct installation, commissioning and support.</p>
+            <ol class="te-steps te-steps--method">
+              <li>
+                <span class="te-service__n" aria-hidden="true">01</span>
+                <div>
+                  <strong>Understand the load</strong>
+                  <span>What must run, for how long, and at what peak.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">02</span>
+                <div>
+                  <strong>Design the system</strong>
+                  <span>Capacity, storage, generation and protection around that requirement.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">03</span>
+                <div>
+                  <strong>Match components</strong>
+                  <span>So parts work as one system, not a pile of products.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">04</span>
+                <div>
+                  <strong>Install correctly</strong>
+                  <span>Electrical work included, not treated as an afterthought.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">05</span>
+                <div>
+                  <strong>Test and commission</strong>
+                  <span>Prove the system against the intended loads before handover.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">06</span>
+                <div>
+                  <strong>Support</strong>
+                  <span>Monitoring, maintenance and fault resolution after the power comes on.</span>
+                </div>
+              </li>
+            </ol>
+            <div class="te-capability">
+              <p>More than ten years of hands-on industry work across:</p>
+              <p class="te-chips">load calculation · system sizing · installation · electrical wiring · component matching · troubleshooting · commissioning · after-sales support</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="te-section te-section--tight te-mid" aria-label="Start a conversation">
+          <div class="te-mid__media" aria-hidden="true">
+            <img
+              src="assets/images/takeshi/takeshi-cta-lagos-cityscape.jpg"
+              width="1600"
+              height="1066"
+              alt=""
+              loading="lazy"
+              decoding="async">
+          </div>
+          <div class="te-mid__scrim" aria-hidden="true"></div>
+          <div class="te-container te-mid__content">
+            <h2>If you already know what you need, we can start there.</h2>
+            <p class="te-lede">One conversation about the property, the loads that matter, and the backup you need.</p>
+            <a class="te-btn te-btn--primary" href="#contact">Discuss your energy needs</a>
+          </div>
+        </section>
+
+        <section class="te-section te-serve" id="serve">
+          <div class="te-container">
+            <h2>Built for how the property actually runs.</h2>
+            <p class="te-lede">We work with people responsible for a home, a site, or a development — anywhere unreliable supply affects daily life or operations.</p>
+            <dl class="te-index">
+              <div>
+                <dt>Residential</dt>
+                <dd>Homes and residential managers who need dependable backup and a system they can understand.</dd>
+              </div>
+              <div>
+                <dt>Commercial</dt>
+                <dd>Businesses that need continuity, predictable running costs and equipment that stays up.</dd>
+              </div>
+              <div>
+                <dt>Estates and developments</dt>
+                <dd>Multi-unit work: coordinated design, installation and maintenance.</dd>
+              </div>
+              <div>
+                <dt>Healthcare</dt>
+                <dd>Facilities where critical equipment and refrigeration cannot sit on guesswork.</dd>
+              </div>
+              <div>
+                <dt>Fuel stations</dt>
+                <dd>Pumps, payment systems and customer service that depend on stable supply.</dd>
+              </div>
+              <div>
+                <dt>Offices and retail</dt>
+                <dd>Workplaces and shops that need the working day to hold.</dd>
+              </div>
+              <div>
+                <dt>Hospitality</dt>
+                <dd>Guest-facing operations that cannot absorb long interruptions.</dd>
+              </div>
+              <div>
+                <dt>Industrial</dt>
+                <dd>Sites where process loads and downtime have operational consequences.</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+
+        <section class="te-section te-process" id="process">
+          <div class="te-container">
+            <h2>From first conversation to ongoing support.</h2>
+            <p class="te-lede">If we work together, this is the path — from the first conversation through support after handover.</p>
+            <ol class="te-steps te-steps--light">
+              <li>
+                <span class="te-service__n" aria-hidden="true">01</span>
+                <div>
+                  <strong>Understand</strong>
+                  <span>The property, the present supply problems, and the outcome you need.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">02</span>
+                <div>
+                  <strong>Assess</strong>
+                  <span>Site and load when the requirement is not already clear.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">03</span>
+                <div>
+                  <strong>Design</strong>
+                  <span>A recommendation: capacity, installation scope, commercial terms, exclusions, maintenance options.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">04</span>
+                <div>
+                  <strong>Install</strong>
+                  <span>Procurement, installation, testing and commissioning.</span>
+                </div>
+              </li>
+              <li>
+                <span class="te-service__n" aria-hidden="true">05</span>
+                <div>
+                  <strong>Support</strong>
+                  <span>Handover on safe use and limits, then warranty, service plan or maintenance as agreed.</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="te-section te-account" id="accountability">
+          <div class="te-container">
+            <h2>Accountable after the power comes on.</h2>
+            <p class="te-lede">We do not build a reputation by selling the most equipment. We build it by designing the right system, installing it properly, and remaining responsible after commissioning — through handover, maintenance and fault support.</p>
+          </div>
+        </section>
+
+        <section class="te-section te-contact" id="contact">
+          <div class="te-container">
+            <p class="te-eyebrow">Contact</p>
+            <h2>Tell us what the property needs to do.</h2>
+            <p class="te-lede">We will determine what the power system needs to support it. Share the property type, which loads must stay on, and how long you need backup. Residential and commercial enquiries use the same starting point.</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="te-footer">
+        <div class="te-container te-footer__line">
+          <p class="te-footer__promise">Takeshi Energy. Dependable power, designed around what matters.</p>
+          <ul class="te-footer__links">
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#serve">Who we serve</a></li>
+            <li><a href="#process">How we work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <p class="te-footer__meta">
+            <span>© 2026 Takeshi Energy.</span>
+            <span class="te-footer__powered">Powered by <a href="https://69resources.com">69resources.com</a></span>
+            <span class="te-footer__attr">Adapted from <a href="https://freebootstrap.net/template/zenith-bootstrap-solar-and-clean-energy-template">Zenith</a> by <a href="https://freebootstrap.net">FreeBootstrap.net</a>.</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <button class="te-top" type="button" id="back-to-top" hidden aria-label="Back to top">↑</button>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
