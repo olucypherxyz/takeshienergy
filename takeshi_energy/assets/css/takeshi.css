@@ -601,7 +601,7 @@ h3 {
 }
 
 .te-figure--face img {
-  object-position: center 42%;
+  object-position: center 58%;
 }
 
 .te-products {
@@ -696,7 +696,7 @@ h3 {
   height: clamp(18rem, 38vw, 34rem);
   max-height: none;
   aspect-ratio: auto;
-  object-position: 78% 82%;
+  object-position: center 52%;
 }
 
 /* Mid CTA */
