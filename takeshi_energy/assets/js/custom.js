@@ -34,8 +34,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   if (panel) {
+    if (panel.parentElement !== document.body) {
+      document.body.appendChild(panel);
+    }
     panel.addEventListener("show.bs.offcanvas", () => {
       panel.removeAttribute("inert");
+      document.body.classList.add("te-nav-open");
       if (toggle) {
         toggle.setAttribute("aria-expanded", "true");
         toggle.setAttribute("aria-label", "Close menu");
@@ -43,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     panel.addEventListener("hidden.bs.offcanvas", () => {
       panel.setAttribute("inert", "");
+      document.body.classList.remove("te-nav-open");
       if (toggle) {
         toggle.setAttribute("aria-expanded", "false");
         toggle.setAttribute("aria-label", "Open menu");

@@ -13,3 +13,4 @@ Thumbs.db
 takeshi_energy/assets/images/takeshi/_candidates/
 
 .vercel
+.env*
